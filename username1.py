@@ -9,12 +9,11 @@ class UserName:
     def screen_name(self):
         return self.name.upper()
 
-
 hibiki = UserName(name='hibiki')
 
 # print(hibiki)
 # print(type(hibiki))
-# print(hibiki.name)
+print(hibiki.name)
 
 print(hibiki.screen_name())
 
